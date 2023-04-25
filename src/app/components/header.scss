@@ -1,0 +1,184 @@
+.headcontiner {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 1816px;
+
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 88px;
+    gap: 111px;
+    position: absolute;
+    left: 0px;
+    top: -2px;
+
+    .nav-brend {
+      display: flex;
+    }
+
+    .logotext {
+      background: linear-gradient(50deg, #fb3c00, #ffb800);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: 'Golos Text', sans-serif;
+      padding-left: 10px;
+      font-weight: 700;
+      font-size: 1.8rem;
+    }
+
+    .logoo {
+      vertical-align: middle;
+    }
+
+    .deleveryadress {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      .icon {
+        display: flex;
+      }
+
+      .deleveryto {
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 100%;
+        align-items: center;
+        font-family: 'Source Sans Pro', sans-serif;
+      }
+
+      .text {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        font-family: 'Open Sans', sans-serif;
+
+      }
+    }
+
+    .searchloginbutton {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      .search {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .searchtext {
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 100%;
+        color: #424242;
+        padding-left: 9px;
+        text-align: center;
+      }
+
+      .login {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 20px;
+        margin-left: 24px;
+        box-sizing: border-box;
+        box-shadow: 0px 5px 10px rgba(255, 174, 0, 0.26), 0px 20px 40px rgba(255, 174, 0, 0.29);
+        border-radius: 8px;
+        width: 110px;
+        height: 46px;
+        border: none;
+
+        .logintext {
+          padding-left: 15px;
+          color: rgba(255, 184, 0, 1);
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 100%;
+          padding-bottom: 4px;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 500px) {
+  
+      .headcontiner {
+        gap: 2px;
+        padding-left: 10px;
+        padding-top: 10px;
+        width: 300px;
+  
+        .nav-brend {
+          flex-direction: column;
+        }
+  
+        .searchloginbutton {
+          .searchtext {
+            font-size: 12px;
+            padding-left: 2px;
+          }
+  
+          width: 170px;
+  
+          .search {
+            img {
+              width: 11px;
+            }
+          }
+  
+          .login {
+            padding-left: 7px;
+            margin-left: 4px;
+            width: 74px;
+            height: 32px;
+  
+            img {
+              width: 13px;
+            }
+  
+            .logintext {
+              font-size: 15px;
+              padding-left: 9px;
+            }
+  
+          }
+        }
+  
+        .deleveryadress {
+          .icon {
+            img {
+              width: 16px;
+            }
+  
+          }
+  
+          .deleveryto {
+            font-size: 13px;
+          }
+  
+          .text {
+            font-size: 10px;
+            width: 117px;
+          }
+        }
+  
+        .logoo {
+          width: 16px;
+          margin-left: 18px;
+        }
+  
+        .logotext {
+          font-size: 13px;
+          padding-left: 0;
+        }
+    }
+}
