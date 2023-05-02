@@ -1,0 +1,68 @@
+
+.HowDoesItWork {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
+    height: 518px;
+    gap: 71px;
+    margin-top: 40px;
+  
+    .main-title {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 43px;
+      line-height: 112%;
+      color: rgba(241, 114, 40, 1);
+      text-align: center;
+    }
+  
+    .features {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 32px;
+      width: 1384px;
+      height: 239px;
+  
+  
+      .frame1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 307px;
+        height: 323px;
+        gap: 41px;
+  
+        .icon {
+          width: 168px;
+        }
+  
+        .title {
+          font-family: 'Source Sans Pro', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 22px;
+          line-height: 120%;
+          color: rgba(67, 67, 67, 1);
+          text-align: center;
+        }
+  
+        .body {
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 140%;
+          text-align: center;
+          align-items: stretch;
+          color: rgba(158, 158, 158, 1);
+          padding-top: 10px;
+        }
+      }
+    }
+  }
